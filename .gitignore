@@ -1,0 +1,4 @@
+.spotify_token_cache
+administrative-files/
+__pycache__/
+*.pyc

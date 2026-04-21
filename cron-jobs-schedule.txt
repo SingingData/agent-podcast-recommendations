@@ -1,0 +1,13 @@
+# ============================================================
+# DOCUMENTATION ONLY — this file does not control scheduling.
+# Cron jobs are managed by the OpenClaw Gateway.
+# To update a schedule, ask the agent or use the OpenClaw UI.
+# Last updated: 2026-04-21
+# ============================================================
+
+job_id:   a2aa9e4a-e70d-4666-9eb9-11086f826031
+name:     agent-podcast-recommendations
+schedule: 0 6 * * 2,4,5   (6am Tue/Thu/Fri, America/Los_Angeles)
+command:  cd /Users/pattyry/.openclaw/workspace/agent-podcast-recommendations && /opt/homebrew/Caskroom/miniforge/base/envs/fastai/bin/python agent-script-fetch-recommendations-to-my-libraries.py
+timeout:  120s
+delivery: announce

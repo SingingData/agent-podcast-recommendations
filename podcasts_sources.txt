@@ -1,0 +1,5 @@
+# Podcast configuration for agent-playlist-podcast-recos
+# Format: show_id | playlist_name | description
+# One podcast per line. Lines starting with # are ignored.
+
+4HnoYrqHb311v3KycL974t | Ill Advised Picks | Music recommended on the ill-advised by Bill Nighy podcast
