@@ -1,0 +1,14 @@
+# requirements.txt — agent-podcast-recommendations
+# ─────────────────────────────────────────────────────────────────────────────
+# Python packages required by agent-script-fetch-recommendations-to-my-libraries.py
+#
+# Standard library modules (no installation needed):
+#   os, re, json, time, shutil, smtplib, logging, datetime,
+#   html.parser, html, email.mime.text, email.mime.multipart
+#
+# Third-party packages (installed via pip):
+# ─────────────────────────────────────────────────────────────────────────────
+
+spotipy>=2.26.0
+thefuzz>=0.22.1
+python-dotenv>=1.2.2

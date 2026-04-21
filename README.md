@@ -1,6 +1,6 @@
 # agent-podcast-recommendations
 
-One-paragraph description of what the agent does.
+A Python agent that monitors podcast episodes on Spotify, extracts music recommendations from show notes, searches for each track on Spotify using fuzzy matching, and automatically adds matched tracks to a dedicated Spotify playlist. Runs on a scheduled cron job and sends an email notification whenever new tracks are added.
 
 ## What it does
 - Monitors podcasts listed in `podcasts_sources.txt`
@@ -16,7 +16,10 @@ One-paragraph description of what the agent does.
 ## Setup
 
 ### 1. Clone the repo
-...
+```bash
+git clone https://github.com/singingdata/agent-podcast-recommendations.git
+cd agent-podcast-recommendations
+```
 
 ### 2. Configure environment variables
 Add the following to your workspace `.env` file (one level above this folder):

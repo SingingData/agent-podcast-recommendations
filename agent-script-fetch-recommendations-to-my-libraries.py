@@ -28,8 +28,13 @@ import subprocess
 
 _REQUIREMENTS_FILE = os.path.join(
     os.path.dirname(os.path.abspath(__file__)),
-    "administrative-files",
     "requirements.txt"
+)
+
+# Ensure the administrative-files directory exists (created on first run after cloning)
+os.makedirs(
+    os.path.join(os.path.dirname(os.path.abspath(__file__)), "administrative-files"),
+    exist_ok=True
 )
 
 if os.path.exists(_REQUIREMENTS_FILE):
