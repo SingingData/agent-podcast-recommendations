@@ -1,6 +1,6 @@
 # agent-podcast-recommendations
 
-A Python agent that monitors podcast episodes on Spotify, extracts music recommendations from show notes, searches for each track on Spotify using fuzzy matching, and automatically adds matched tracks to a dedicated Spotify playlist. Runs on a scheduled cron job and sends an email notification whenever new tracks are added.
+This repository contains a Python agent that monitors podcast episodes on Spotify, extracts music recommendations from show notes, searches for each track on Spotify using fuzzy matching, and automatically adds matched tracks to a dedicated Spotify playlist. Runs on a scheduled cron job and sends an email notification whenever new tracks are added.
 
 ## What it does
 - Monitors podcasts listed in `podcasts_sources.txt`
