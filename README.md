@@ -9,7 +9,7 @@ A Python agent that monitors podcast episodes on Spotify, extracts music recomme
 - Sends an email notification when new tracks are added
 
 ## Requirements
-- Python 3.11+
+- Python 3.11+  (Refer to how to set up here: https://docs.conda.io/en/latest/miniconda.html)
 - A Spotify Developer account and app
 - A Gmail account with an App Password enabled
 
