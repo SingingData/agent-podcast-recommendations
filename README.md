@@ -40,6 +40,8 @@ parent-folder/
 ```
 
 Add the following variables to `.env`:
+Use this format:
+SPOTIFY_CLIENT_ID=yourvariable
 
 | Variable | Description |
 |---|---|
