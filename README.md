@@ -66,6 +66,8 @@ https://open.spotify.com/show/<SHOW_ID>
 ```
 
 ### 5. Install dependencies
+Navigate to your python environment in the terminal.  
+Install the dependencies from the requirements.txt file.
 ```bash
 pip install -r requirements.txt
 ```
