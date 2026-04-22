@@ -27,7 +27,9 @@ cd agent-podcast-recommendations
 3. Note your Client ID and Client Secret — you'll need them in the next step
 
 ### 3. Configure environment variables
-Create a `.env` file one level above this folder. The expected directory structure is:
+Create a `.env` file one level above this folder. 
+Reference this .env file how-to if you need to:  https://www.geeksforgeeks.org/python/how-to-create-and-use-env-files-in-python/
+The expected directory structure is:
 
 ```
 parent-folder/
