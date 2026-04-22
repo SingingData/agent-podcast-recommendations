@@ -82,6 +82,9 @@ After approving, the token is cached in `.spotify_token_cache` and all subsequen
 are fully automated with no browser interaction required.
 
 ### 7. Schedule (optional)
+Optionally, schedule this agent-podcast-recommendations to run regularly according to your preferences.
+This schedule (or 'cron-job') is currently handled in the OpenClaw harness, but you can set it up anywhere.
+
 See `cron-jobs-schedule.txt` for the cron job configuration used with OpenClaw.
 
 ## File structure
